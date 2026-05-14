@@ -1,0 +1,42 @@
+{
+  "name": "PulseAI - Market Intelligence",
+  "short_name": "PulseAI",
+  "description": "AI-powered daily stock plays, real-time alerts, and portfolio coaching.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080b11",
+  "theme_color": "#00c8f0",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/080b11/00c8f0?text=⚡",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512/080b11/00c8f0?text=⚡",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Plays",
+      "short_name": "Plays",
+      "url": "/?view=plays"
+    },
+    {
+      "name": "News & Alerts",
+      "short_name": "News",
+      "url": "/?view=news"
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio",
+      "url": "/?view=portfolio"
+    }
+  ]
+}
